@@ -8,7 +8,7 @@ class PanoramaViewer {
     this.imageUrl = imageUrl;
 
     // ---- opzioni con default ----
-    this.pitchLimit = options.pitchLimit ?? 70;   // gradi, verticale: -limit/+limit
+    this.pitchLimit = options.pitchLimit ?? 65;   // gradi, verticale: -limit/+limit
     this.fov        = options.fov ?? 75;          // campo visivo iniziale
     this.minFov     = options.minFov ?? 30;        // zoom massimo (in avanti)
     this.maxFov     = options.maxFov ?? 100;       // zoom minimo (indietro)
